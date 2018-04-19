@@ -21,22 +21,23 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/274947394@qq.com/ComMain'
+  s.homepage         = 'https://github.com/tobefine/company_main'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '274947394@qq.com' => '123@qq.com' }
-  s.source           = { :git => 'https://github.com/274947394@qq.com/ComMain.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/tobefine/company_main.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ComMain/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'ComMain' => ['ComMain/Assets/*.png']
-  # }
+   s.resource_bundles = {
+    'ComMain' => ['ComMain/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'fourLib'
 end

@@ -7,12 +7,14 @@
 //
 
 #import "lxlAppDelegate.h"
-
+#import "MainBar.h"
 @implementation lxlAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = [MainBar new];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

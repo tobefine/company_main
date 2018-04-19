@@ -1,3 +1,5 @@
+source 'https://github.com/tobefine/Company_index1.git'
+source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 target 'ComMain_Example' do

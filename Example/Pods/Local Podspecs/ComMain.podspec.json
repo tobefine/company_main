@@ -1,0 +1,32 @@
+{
+  "name": "ComMain",
+  "version": "0.1.0",
+  "summary": "A short description of ComMain.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/274947394@qq.com/ComMain",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "274947394@qq.com": "123@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/274947394@qq.com/ComMain.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ComMain/Classes/**/*",
+  "resource_bundles": {
+    "ComMain": [
+      "ComMain/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "fourLib": [
+
+    ]
+  }
+}
