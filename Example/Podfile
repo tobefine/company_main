@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ComMain_Example' do
+  pod 'ComMain', :path => '../'
+
+  target 'ComMain_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
